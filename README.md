@@ -7,9 +7,9 @@
   <a href="https://github.com/yatendra2001/ai_buddy">
     <img src="https://github.com/MatinMollapur01/IQ/assets/127895108/4c1a0367-6c66-4606-9c73-1e89685a37bb"  alt="Logo" width="200" height="200" >
   </a>
-  <h1 align="center" >AI Buddy</h1>
+  <h1 align="center" >IQ</h1>
   <h4 align="center">
-    Your personal completely open-sourced and free-to-use AI buddy, built with gemini & flutter.
+    Smart Chat with AI! PDFs, Images - Elevate Conversations! 🚀💬
   </h4>
 </div>
 
