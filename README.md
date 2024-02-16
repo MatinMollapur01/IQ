@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/yatendra2001/ai_buddy">
-    <img src="https://github.com/yatendra2001/gemini_chat/assets/62821607/1e31abfa-7fe7-4775-a6c7-185ba03b48ef"  alt="Logo" width="200" height="200" >
+    <img src="![IQ-icon](https://github.com/MatinMollapur01/IQ/assets/127895108/4c1a0367-6c66-4606-9c73-1e89685a37bb)"  alt="Logo" width="200" height="200" >
   </a>
   <h1 align="center" >AI Buddy</h1>
   <h4 align="center">
