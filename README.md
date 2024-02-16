@@ -135,9 +135,13 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Contact
 
 
-Twitter: [@iamyatendrak](https://twitter.com/iamyatendrak)
+Reddit : [@MatinMollapur](https://www.reddit.com/user/Individual_Month3518)
 
-LinkedIn: [linkedin](https://www.linkedin.com/in/iamyatendrak/)
+Mastodon : [MatinmollapurVA](https://mastodon.social/@matinmollapurVA)
+
+BlueSky : [MatinMollapur](https://bsky.app/profile/matinmollapur.bsky.social)
+
+GitHub : [MatinMollapur01](https://github.com/MatinMollapur01)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
