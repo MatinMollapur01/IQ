@@ -9,7 +9,7 @@
   </a>
   <h1 align="center" >IQ</h1>
   <h4 align="center">
-    Smart Chat with AI! PDFs, Images - Elevate Conversations! 🚀💬
+    Smart Chat with AI! PDFs, Images - Elevate Conversations!
   </h4>
 </div>
 
@@ -20,16 +20,16 @@
 
 AI Buddy is a cross-platform mobile application that leverages the power of AI to provide users with a personal assistant capable of understanding and responding to various queries.
 
-| Chat with PDF | Ask Image | Text Chatbot |
+| Chat with PDF   |   Ask Image   |   Text Chatbot   |
 
 <!-- ARCHITECTURE -->
 ## Architecture
 
-The architecture of the AI Buddy app is designed to efficiently process and interact with PDF documents. Here's a breakdown of the workflow:
+The architecture of the IQ app is designed to efficiently process and interact with PDF documents. Here's a breakdown of the workflow:
 
 ### Overview
 
-The "Chat with PDF" feature of the AI Buddy app allows users to interact with the content of a PDF document in a conversational manner. The app extracts information from the PDF, processes it, and provides relevant responses to user queries.
+The "Chat with PDF" feature of the IQ app allows users to interact with the content of a PDF document in a conversational manner. The app extracts information from the PDF, processes it, and provides relevant responses to user queries.
 
 ### Workflow Diagram
 
@@ -80,7 +80,7 @@ Need the latest flutter version & a gemini api key from [here](https://makersuit
 1. Clone the repository from GitHub:
 
 ```bash
-git clone https://github.com/yatendra2001/ai_buddy.git
+git clone https://github.com/MatinMollapur01/IQ.git
 ```
 
 2. Get all dependencies:
@@ -120,7 +120,6 @@ docs: Everything related to documentation
 refactor: Regular code refactoring and maintenance
 ```
 
-To know more extensively about how to contribute to this project, read our [Contribution Guide](https://github.com/yatendra2001/ai_buddy/blob/main/CONTRIBUTING.md).
 
 
 <!-- LICENSE -->
