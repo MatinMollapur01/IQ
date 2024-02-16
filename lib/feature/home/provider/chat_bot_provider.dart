@@ -1,11 +1,11 @@
 import 'dart:io';
 
-import 'package:ai_buddy/feature/gemini/repository/gemini_repository.dart';
-import 'package:ai_buddy/feature/hive/model/chat_bot/chat_bot.dart';
-import 'package:ai_buddy/feature/hive/repository/hive_repository.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:iq/feature/gemini/repository/gemini_repository.dart';
+import 'package:iq/feature/hive/model/chat_bot/chat_bot.dart';
+import 'package:iq/feature/hive/repository/hive_repository.dart';
 import 'package:syncfusion_flutter_pdf/pdf.dart';
 
 final chatBotListProvider =

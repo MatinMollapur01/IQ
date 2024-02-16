@@ -1,5 +1,5 @@
 import 'dart:typed_data';
-import 'package:ai_buddy/feature/gemini/gemini.dart';
+import 'package:iq/feature/gemini/gemini.dart';
 
 abstract class BaseGeminiRepository {
   Stream<Candidates> streamContent({

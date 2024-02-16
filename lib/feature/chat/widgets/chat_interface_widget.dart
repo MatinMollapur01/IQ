@@ -1,11 +1,11 @@
-import 'package:ai_buddy/core/config/type_of_message.dart';
-import 'package:ai_buddy/core/extension/context.dart';
-import 'package:ai_buddy/feature/chat/provider/message_provider.dart';
-import 'package:ai_buddy/feature/hive/model/chat_bot/chat_bot.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_chat_types/flutter_chat_types.dart' as types;
 import 'package:flutter_chat_ui/flutter_chat_ui.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:iq/core/config/type_of_message.dart';
+import 'package:iq/core/extension/context.dart';
+import 'package:iq/feature/chat/provider/message_provider.dart';
+import 'package:iq/feature/hive/model/chat_bot/chat_bot.dart';
 
 class ChatInterfaceWidget extends ConsumerWidget {
   const ChatInterfaceWidget({

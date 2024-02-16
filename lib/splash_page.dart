@@ -1,9 +1,9 @@
 // ignore_for_file: use_build_context_synchronously
 
-import 'package:ai_buddy/core/extension/context.dart';
-import 'package:ai_buddy/core/navigation/route.dart';
-import 'package:ai_buddy/core/util/secure_storage.dart';
 import 'package:flutter/material.dart';
+import 'package:iq/core/extension/context.dart';
+import 'package:iq/core/navigation/route.dart';
+import 'package:iq/core/util/secure_storage.dart';
 
 class SplashPage extends StatefulWidget {
   const SplashPage({super.key});

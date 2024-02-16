@@ -1,6 +1,6 @@
-import 'package:ai_buddy/core/extension/context.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:iq/core/extension/context.dart';
 
 class CardButton extends StatelessWidget {
   const CardButton({

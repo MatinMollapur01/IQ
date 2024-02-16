@@ -1,16 +1,16 @@
 import 'dart:io';
 
-import 'package:ai_buddy/core/config/assets_constants.dart';
-import 'package:ai_buddy/core/config/type_of_bot.dart';
-import 'package:ai_buddy/core/extension/context.dart';
-import 'package:ai_buddy/feature/chat/provider/message_provider.dart';
-import 'package:ai_buddy/feature/chat/widgets/chat_interface_widget.dart';
-import 'package:ai_buddy/feature/home/provider/chat_bot_provider.dart';
-import 'package:ai_buddy/feature/home/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_chat_types/flutter_chat_types.dart' as types;
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
+import 'package:iq/core/config/assets_constants.dart';
+import 'package:iq/core/config/type_of_bot.dart';
+import 'package:iq/core/extension/context.dart';
+import 'package:iq/feature/chat/provider/message_provider.dart';
+import 'package:iq/feature/chat/widgets/chat_interface_widget.dart';
+import 'package:iq/feature/home/provider/chat_bot_provider.dart';
+import 'package:iq/feature/home/widgets/widgets.dart';
 
 class ChatPage extends ConsumerWidget {
   const ChatPage({super.key});
@@ -106,7 +106,7 @@ class ChatPage extends ConsumerWidget {
                         ),
                         child: Center(
                           child: Text(
-                            '$title Buddy',
+                            '$title IQ',
                             style: TextStyle(
                               color: context.colorScheme.surface,
                               fontSize: 14,

@@ -1,9 +1,9 @@
-import 'package:ai_buddy/core/extension/context.dart';
-import 'package:ai_buddy/core/navigation/route.dart';
-import 'package:ai_buddy/core/ui/input/input_field.dart';
-import 'package:ai_buddy/core/util/secure_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:iq/core/extension/context.dart';
+import 'package:iq/core/navigation/route.dart';
+import 'package:iq/core/ui/input/input_field.dart';
+import 'package:iq/core/util/secure_storage.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class APIKeyBottomSheet extends StatefulWidget {
@@ -83,7 +83,7 @@ class _APIKeyBottomSheetState extends State<APIKeyBottomSheet> {
                         color: context.colorScheme.surface,
                       )
                     : Text(
-                        'Submit',
+                        'Check it!',
                         style: context.textTheme.labelLarge!.copyWith(
                           color: context.colorScheme.surface,
                         ),

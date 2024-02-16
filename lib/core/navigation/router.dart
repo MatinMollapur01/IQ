@@ -1,11 +1,11 @@
 // ignore_for_file: lines_longer_than_80_chars
 
-import 'package:ai_buddy/core/navigation/route.dart';
-import 'package:ai_buddy/feature/chat/chat_page.dart';
-import 'package:ai_buddy/feature/home/home_page.dart';
-import 'package:ai_buddy/feature/welcome/welcome_page.dart';
-import 'package:ai_buddy/splash_page.dart';
 import 'package:go_router/go_router.dart';
+import 'package:iq/core/navigation/route.dart';
+import 'package:iq/feature/chat/chat_page.dart';
+import 'package:iq/feature/home/home_page.dart';
+import 'package:iq/feature/welcome/welcome_page.dart';
+import 'package:iq/splash_page.dart';
 
 final GoRouter router = GoRouter(
   routes: [

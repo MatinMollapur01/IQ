@@ -1,11 +1,11 @@
-import 'package:ai_buddy/core/app/app.dart';
-import 'package:ai_buddy/feature/hive/model/chat_bot/chat_bot.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:hive/hive.dart';
+import 'package:iq/core/app/app.dart';
+import 'package:iq/feature/hive/model/chat_bot/chat_bot.dart';
 import 'package:loggy/loggy.dart';
 import 'package:path_provider/path_provider.dart';
 

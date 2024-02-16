@@ -1,20 +1,20 @@
 // ignore_for_file: use_build_context_synchronously
 
-import 'package:ai_buddy/core/config/assets_constants.dart';
-import 'package:ai_buddy/core/config/type_of_bot.dart';
-import 'package:ai_buddy/core/extension/context.dart';
-import 'package:ai_buddy/core/navigation/route.dart';
-import 'package:ai_buddy/core/util/secure_storage.dart';
-import 'package:ai_buddy/feature/chat/provider/message_provider.dart';
-import 'package:ai_buddy/feature/hive/model/chat_bot/chat_bot.dart';
-import 'package:ai_buddy/feature/home/provider/chat_bot_provider.dart';
-import 'package:ai_buddy/feature/home/widgets/widgets.dart';
-import 'package:ai_buddy/feature/welcome/widgets/api_key_bottom_sheet.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
+import 'package:iq/core/config/assets_constants.dart';
+import 'package:iq/core/config/type_of_bot.dart';
+import 'package:iq/core/extension/context.dart';
+import 'package:iq/core/navigation/route.dart';
+import 'package:iq/core/util/secure_storage.dart';
+import 'package:iq/feature/chat/provider/message_provider.dart';
+import 'package:iq/feature/hive/model/chat_bot/chat_bot.dart';
+import 'package:iq/feature/home/provider/chat_bot_provider.dart';
+import 'package:iq/feature/home/widgets/widgets.dart';
+import 'package:iq/feature/welcome/widgets/api_key_bottom_sheet.dart';
 import 'package:uuid/uuid.dart';
 
 class HomePage extends ConsumerStatefulWidget {
@@ -175,7 +175,7 @@ class _HomePageState extends ConsumerState<HomePage> {
                                 mainAxisSize: MainAxisSize.min,
                                 children: [
                                   Text(
-                                    'Personal AI Buddy',
+                                    'Personal IQ',
                                     style: TextStyle(
                                       color: context.colorScheme.background,
                                       fontSize: 14,
@@ -237,7 +237,7 @@ class _HomePageState extends ConsumerState<HomePage> {
                           child: Align(
                             alignment: Alignment.centerLeft,
                             child: Text(
-                              'How may I help\nyou today?',
+                              'Whats on your\nmind today?',
                               style: Theme.of(context)
                                   .textTheme
                                   .bodyLarge!
@@ -264,7 +264,7 @@ class _HomePageState extends ConsumerState<HomePage> {
                                     final filePath = result.files.single.path;
                                     setState(() {
                                       _isBuildingChatBot = true;
-                                      currentState = 'Extracting data';
+                                      currentState = 'Reading your data 📖';
                                     });
 
                                     await Future<void>.delayed(
@@ -312,7 +312,7 @@ class _HomePageState extends ConsumerState<HomePage> {
                               child: Column(
                                 children: [
                                   CardButton(
-                                    title: 'Chat with AI',
+                                    title: 'Chat with IQ',
                                     color: context.colorScheme.secondary,
                                     imagePath: AssetConstants.textLogo,
                                     isMainButton: false,
@@ -377,7 +377,7 @@ class _HomePageState extends ConsumerState<HomePage> {
                                     MainAxisAlignment.spaceBetween,
                                 children: [
                                   Text(
-                                    'History',
+                                    'Your History 👇 🕒',
                                     style: Theme.of(context)
                                         .textTheme
                                         .bodyLarge!
@@ -421,7 +421,7 @@ class _HomePageState extends ConsumerState<HomePage> {
                                     children: [
                                       const SizedBox(width: 12),
                                       Text(
-                                        'No chats yet',
+                                        'No chats yet broo!',
                                         style: Theme.of(context)
                                             .textTheme
                                             .bodyLarge!

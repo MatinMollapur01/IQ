@@ -4,8 +4,8 @@ import 'package:google_fonts/google_fonts.dart';
 final darkTheme = _getTheme();
 
 const _primary = Color(0xFFC5F432);
-const _secondary = Color(0xFFC09FF8);
-const _tertiary = Color(0xFFFEC4DD);
+const _secondary = Color(0xFF4E0FB3);
+const _tertiary = Color(0xFFF3096B);
 
 const _background = Color(0xFF010201);
 const _onBackground = Color(0xff171717);

@@ -1,8 +1,8 @@
-import 'package:ai_buddy/core/config/assets_constants.dart';
-import 'package:ai_buddy/core/extension/context.dart';
-import 'package:ai_buddy/feature/home/widgets/background_curves_painter.dart';
-import 'package:ai_buddy/feature/welcome/widgets/api_key_bottom_sheet.dart';
 import 'package:flutter/material.dart';
+import 'package:iq/core/config/assets_constants.dart';
+import 'package:iq/core/extension/context.dart';
+import 'package:iq/feature/home/widgets/background_curves_painter.dart';
+import 'package:iq/feature/welcome/widgets/api_key_bottom_sheet.dart';
 import 'package:lottie/lottie.dart';
 
 class WelcomePage extends StatelessWidget {
@@ -71,7 +71,7 @@ class WelcomePage extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: [
                             Text(
-                              'Personal AI Buddy',
+                              'Personal IQ',
                               style: TextStyle(
                                 color: context.colorScheme.background,
                                 fontSize: 14,
@@ -124,7 +124,7 @@ class WelcomePage extends StatelessWidget {
                         minimumSize: const Size(double.infinity, 56),
                       ),
                       child: Text(
-                        'Get Started',
+                        'Here we go!',
                         style: context.textTheme.labelLarge!.copyWith(
                           color: context.colorScheme.surface,
                         ),

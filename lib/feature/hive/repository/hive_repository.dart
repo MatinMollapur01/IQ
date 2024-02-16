@@ -1,6 +1,6 @@
-import 'package:ai_buddy/feature/hive/model/chat_bot/chat_bot.dart';
-import 'package:ai_buddy/feature/hive/repository/base_hive_repository.dart';
 import 'package:hive/hive.dart';
+import 'package:iq/feature/hive/model/chat_bot/chat_bot.dart';
+import 'package:iq/feature/hive/repository/base_hive_repository.dart';
 
 class HiveRepository implements BaseHiveRepository {
   HiveRepository();

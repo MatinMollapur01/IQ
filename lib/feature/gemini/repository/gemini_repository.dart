@@ -4,11 +4,11 @@ import 'dart:convert';
 import 'dart:math';
 import 'dart:typed_data';
 
-import 'package:ai_buddy/core/logger/logger.dart';
-import 'package:ai_buddy/core/util/secure_storage.dart';
-import 'package:ai_buddy/feature/gemini/gemini.dart';
-import 'package:ai_buddy/feature/gemini/repository/base_gemini_repository.dart';
 import 'package:dio/dio.dart';
+import 'package:iq/core/logger/logger.dart';
+import 'package:iq/core/util/secure_storage.dart';
+import 'package:iq/feature/gemini/gemini.dart';
+import 'package:iq/feature/gemini/repository/base_gemini_repository.dart';
 
 class GeminiRepository extends BaseGeminiRepository {
   GeminiRepository();

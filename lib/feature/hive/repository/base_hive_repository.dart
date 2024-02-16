@@ -1,4 +1,4 @@
-import 'package:ai_buddy/feature/hive/model/chat_bot/chat_bot.dart';
+import 'package:iq/feature/hive/model/chat_bot/chat_bot.dart';
 
 abstract class BaseHiveRepository {
   Future<void> saveChatBot({

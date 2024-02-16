@@ -1,14 +1,14 @@
 import 'dart:io';
 
-import 'package:ai_buddy/core/config/type_of_bot.dart';
-import 'package:ai_buddy/core/config/type_of_message.dart';
-import 'package:ai_buddy/core/logger/logger.dart';
-import 'package:ai_buddy/feature/gemini/gemini.dart';
-import 'package:ai_buddy/feature/hive/model/chat_bot/chat_bot.dart';
-import 'package:ai_buddy/feature/hive/model/chat_message/chat_message.dart';
-import 'package:ai_buddy/feature/hive/repository/hive_repository.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:iq/core/config/type_of_bot.dart';
+import 'package:iq/core/config/type_of_message.dart';
+import 'package:iq/core/logger/logger.dart';
+import 'package:iq/feature/gemini/gemini.dart';
+import 'package:iq/feature/hive/model/chat_bot/chat_bot.dart';
+import 'package:iq/feature/hive/model/chat_message/chat_message.dart';
+import 'package:iq/feature/hive/repository/hive_repository.dart';
 import 'package:uuid/uuid.dart';
 
 final messageListProvider = StateNotifierProvider<MessageListNotifier, ChatBot>(
@@ -86,7 +86,7 @@ class MessageListNotifier extends StateNotifier<ChatBot> {
     final String modelMessageId = uuid.v4();
     placeholderMessage = ChatMessage(
       id: modelMessageId,
-      text: 'waiting for response...',
+      text: 'Hmmmm....',
       createdAt: DateTime.now(),
       typeOfMessage: TypeOfMessage.bot,
       chatBotId: state.id,

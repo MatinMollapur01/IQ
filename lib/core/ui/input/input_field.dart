@@ -1,6 +1,6 @@
-import 'package:ai_buddy/core/extension/context.dart';
-import 'package:ai_buddy/core/util/validators.dart';
 import 'package:flutter/material.dart';
+import 'package:iq/core/extension/context.dart';
+import 'package:iq/core/util/validators.dart';
 
 class InputField extends StatefulWidget {
   const InputField({

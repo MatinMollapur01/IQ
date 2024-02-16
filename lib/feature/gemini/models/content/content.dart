@@ -1,6 +1,6 @@
-import 'package:ai_buddy/feature/gemini/models/parts/parts.dart';
 import 'package:flutter/foundation.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
+import 'package:iq/feature/gemini/models/parts/parts.dart';
 
 part 'content.freezed.dart';
 part 'content.g.dart';
